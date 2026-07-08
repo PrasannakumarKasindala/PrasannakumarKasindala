@@ -1,0 +1,98 @@
+<svg width="1200" height="300" viewBox="0 0 1200 300" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Prasannakumar Kasindala, Data Engineer. Animated banner of a medallion data pipeline.">
+  <defs>
+    <linearGradient id="headline" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#22D3EE"/>
+      <stop offset="55%" stop-color="#818CF8"/>
+      <stop offset="100%" stop-color="#A78BFA"/>
+    </linearGradient>
+    <linearGradient id="pipe" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#22D3EE" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#A78BFA" stop-opacity="0.9"/>
+    </linearGradient>
+    <radialGradient id="glowGold" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#F59E0B" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#F59E0B" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="soft" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="2.2"/>
+    </filter>
+  </defs>
+
+  <!-- background -->
+  <rect width="1200" height="300" fill="#0D1117"/>
+  <!-- faint grid, the lake -->
+  <g stroke="#1F2937" stroke-width="1">
+    <path d="M0 250 H1200"/><path d="M0 210 H1200"/><path d="M0 170 H1200"/>
+    <path d="M120 130 V300"/><path d="M360 130 V300"/><path d="M600 130 V300"/><path d="M840 130 V300"/><path d="M1080 130 V300"/>
+  </g>
+
+  <!-- headline -->
+  <text x="60" y="92" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="52" font-weight="800" fill="url(#headline)" letter-spacing="0.5">Prasannakumar Kasindala</text>
+  <text x="62" y="126" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="19" font-weight="500" fill="#8B949E" letter-spacing="3">DATA ENGINEER  ·  AWS  ·  SPARK  ·  LAKEHOUSE</text>
+
+  <!-- pipeline spine -->
+  <path id="spine" d="M60 215 C 260 215, 300 215, 430 215 S 700 215, 830 215 S 1020 215, 1130 215" stroke="url(#pipe)" stroke-width="2.5" stroke-dasharray="6 10" fill="none">
+    <animate attributeName="stroke-dashoffset" from="160" to="0" dur="4s" repeatCount="indefinite"/>
+  </path>
+
+  <!-- raw source -->
+  <g font-family="Segoe UI, Helvetica, Arial, sans-serif">
+    <rect x="38" y="197" width="44" height="36" rx="6" fill="#161B22" stroke="#30363D" stroke-width="1.5"/>
+    <path d="M46 208 h28 M46 215 h28 M46 222 h20" stroke="#8B949E" stroke-width="2" stroke-linecap="round"/>
+    <text x="60" y="258" font-size="12" fill="#8B949E" text-anchor="middle">raw</text>
+  </g>
+
+  <!-- bronze node -->
+  <g>
+    <circle cx="360" cy="215" r="26" fill="#0D1117" stroke="#B08968" stroke-width="3"/>
+    <circle cx="360" cy="215" r="26" stroke="#B08968" stroke-width="3" fill="none" opacity="0.35" filter="url(#soft)"/>
+    <text x="360" y="221" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="700" fill="#B08968" text-anchor="middle">Bz</text>
+    <text x="360" y="262" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#8B949E" text-anchor="middle">bronze</text>
+  </g>
+
+  <!-- silver node -->
+  <g>
+    <circle cx="640" cy="215" r="26" fill="#0D1117" stroke="#9CA3AF" stroke-width="3"/>
+    <circle cx="640" cy="215" r="26" stroke="#9CA3AF" stroke-width="3" fill="none" opacity="0.35" filter="url(#soft)"/>
+    <text x="640" y="221" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="700" fill="#C9D1D9" text-anchor="middle">Ag</text>
+    <text x="640" y="262" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#8B949E" text-anchor="middle">silver</text>
+  </g>
+
+  <!-- gold node with pulse -->
+  <g>
+    <circle cx="920" cy="215" r="44" fill="url(#glowGold)">
+      <animate attributeName="r" values="40;48;40" dur="3.2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="920" cy="215" r="26" fill="#0D1117" stroke="#F59E0B" stroke-width="3"/>
+    <text x="920" y="221" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="700" fill="#F59E0B" text-anchor="middle">Au</text>
+    <text x="920" y="262" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#8B949E" text-anchor="middle">gold</text>
+  </g>
+
+  <!-- star schema glyph at the end -->
+  <g stroke="#A78BFA" stroke-width="2">
+    <circle cx="1130" cy="215" r="9" fill="#0D1117"/>
+    <circle cx="1096" cy="186" r="5" fill="#0D1117"/>
+    <circle cx="1164" cy="186" r="5" fill="#0D1117"/>
+    <circle cx="1096" cy="244" r="5" fill="#0D1117"/>
+    <circle cx="1164" cy="244" r="5" fill="#0D1117"/>
+    <path d="M1123 208 L1100 190 M1137 208 L1160 190 M1123 222 L1100 240 M1137 222 L1160 240"/>
+    <text x="1130" y="262" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#8B949E" text-anchor="middle" stroke="none">star schema</text>
+  </g>
+
+  <!-- data particles flowing along the spine -->
+  <circle r="4" fill="#22D3EE">
+    <animateMotion dur="4s" repeatCount="indefinite" rotate="0">
+      <mpath href="#spine"/>
+    </animateMotion>
+  </circle>
+  <circle r="3" fill="#818CF8">
+    <animateMotion dur="4s" begin="1.3s" repeatCount="indefinite">
+      <mpath href="#spine"/>
+    </animateMotion>
+  </circle>
+  <circle r="3.5" fill="#A78BFA">
+    <animateMotion dur="4s" begin="2.6s" repeatCount="indefinite">
+      <mpath href="#spine"/>
+    </animateMotion>
+  </circle>
+</svg>
