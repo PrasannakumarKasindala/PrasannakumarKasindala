@@ -78,22 +78,6 @@ Three years shipping finance and product pipelines at **Intuit** taught me how d
 
 ---
 
-## 📊 GitHub activity
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=PrasannakumarKasindala&show_icons=true&theme=github_dark&hide_border=true&bg_color=0D1117&title_color=22D3EE&icon_color=A78BFA" alt="GitHub stats" height="165"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=PrasannakumarKasindala&layout=compact&theme=github_dark&hide_border=true&bg_color=0D1117&title_color=22D3EE" alt="Top languages" height="165"/>
-</p>
-
----
-
-## 🎧 Outside the code
-
-<!-- EDIT ME: your resume lists no hobbies, so fill these in or delete the section. Examples: -->
-<!-- ♟️ Chess · 🏏 Cricket · 🎬 Film scores · 🥾 North Georgia trails -->
-
----
-
 ## 🤝 Quick connect
 
 <p align="center">
