@@ -2,7 +2,7 @@
 <!-- Commit this file plus assets/banner.svg to a repo named PrasannakumarKasindala -->
 
 <p align="center">
-  <img src="assets/banner.svg" alt="Prasannakumar Kasindala, Data Engineer. Medallion pipeline banner." width="100%"/>
+  <img src="banner.svg" alt="Prasannakumar Kasindala, Data Engineer. Medallion pipeline banner." width="100%"/>
 </p>
 
 <p align="center">
